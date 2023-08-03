@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    .background{
+        width: 525px;
+        height: 500px;
+        /* background-image: url(https://images3.alphacoders.com/131/1313227.jpeg); */
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        box-shadow: 0px 0px 10px rgba(255, 22, 22, 0.595);
+        background-position: center;
+        margin-top: 80px;
+        margin-left: 350px;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(151, 120, 34, 0.9);
+        padding: 40px 70px 50px 70px;
+    }
+    .inup{
+        width: 100%;
+        height: 23px;
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inup>button{
+        height: 1.8rem;
+        width: 8rem;
+        border-radius: 30px;
+        background-color: rgb(40, 196, 87);
+    }
+    /* .inup>.in{
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    } */
+    /* .inup>.up{
+        color: white;
+        border-bottom: 3px solid rgb(35, 255, 105);
+        cursor: pointer;
+    } */
+    .input{
+    width: 100%;
+    height: 75%;
+    margin-top: 15px;
+    /* background-color: red; */
+    }
+    .input>h6{
+    color: rgb(196, 195, 193);
+    margin-top: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    }
+    .input>input{
+        width: 100%;
+        height: 35px;
+        border-radius: 18px;
+        background-color: transparent;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.549);
+        padding-left: 40px;
+        font-size: 16px;
+    }
+    .input>input:focus{
+        outline: none;
+    }
+    .input>.checkbox{
+        margin-top: 10px;
+    }
+    .input>.checkbox>label{
+        color: rgb(255, 255, 255);
+        padding-left: 2px;
+        font-style: bold;
+    }
+    .btn{
+        height: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .btn>button{
+        height: 100%;
+        width: 10rem;
+        border-radius: 18px;
+        background-color: rgb(40, 185, 196);
+        border: none;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 0px 0px 5px white;
+    }
+    hr{
+        margin-top: 40px;
+        background-color:rgb(0, 0, 0);
+        height: 1.2px;
+        border: none;
+        box-shadow: 0px 0px 4px grey;
+    }
+    .forgot{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .forgot>a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
